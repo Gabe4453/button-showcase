@@ -1,0 +1,46 @@
+/* src/components/Button.css */
+
+.btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 0.5rem;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.default {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.outline {
+    background-color: transparent;
+    border: 2px solid #007bff;
+    color: #007bff;
+}
+
+.danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.blue {
+    background-color: blue;
+    color: white;
+}
